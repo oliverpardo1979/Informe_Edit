@@ -1,0 +1,23 @@
+﻿encuesta,periodo,year,codigo,uso,monto_miles_pesos,total_usos_clasificados,participacion
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_maquinaria,Maquinaria y equipo,1085340853.0,2200896387.0,0.4931358238446688
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_id_interna,I+D interna,331411960.0,2200896387.0,0.15058044620253175
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_tic_datos,"TIC, software y datos",169154376.0,2200896387.0,0.07685703743217603
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_ingenieria_diseno,Ingeniería y diseño,136678550.0,2200896387.0,0.06210131054206688
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_mercadotecnia,Mercadotecnia,129579848.0,2200896387.0,0.05887594198681376
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_edificaciones,Edificaciones,115044582.0,2200896387.0,0.05227169378782755
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_consultoria,Asistencia técnica y consultoría,97790135.0,2200896387.0,0.04443195762309187
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_id_externa,I+D externa,58736392.0,2200896387.0,0.026687486220131635
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_metodos_organizativos,Métodos organizativos,44196502.0,2200896387.0,0.02008113705899777
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_capacitacion,Formación y capacitación,21874482.0,2200896387.0,0.009938896773698962
+Industria manufacturera,EDIT X 2019-2020,2019,inversion_propiedad_intelectual,Propiedad intelectual,11088707.0,2200896387.0,0.005038268527994999
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_maquinaria,Maquinaria y equipo,1147741311.0,4396144187.0,0.2610790870768134
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_tic_datos,"TIC, software y datos",1117241257.9999998,4396144187.0,0.25414117701230887
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_id_interna,I+D interna,968868784.0,4396144187.0,0.22039058383596188
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_id_externa,I+D externa,354197735.99999994,4396144187.0,0.08057009072800914
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_ingenieria_diseno,Ingeniería y diseño,282408523.99999994,4396144187.0,0.0642400503684844
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_edificaciones,Edificaciones,240428826.0,4396144187.0,0.05469084174058279
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_consultoria,Asistencia técnica y consultoría,117225818.0,4396144187.0,0.02666559899164654
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_mercadotecnia,Mercadotecnia,105318899.0,4396144187.0,0.023957107528784518
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_capacitacion,Formación y capacitación,28921211.0,4396144187.0,0.006578767613110594
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_propiedad_intelectual,Propiedad intelectual,17896481.0,4396144187.0,0.004070949504550452
+Servicios y comercio,EDITS VIII 2020-2021,2021,inversion_metodos_organizativos,Métodos organizativos,15895339.000000002,4396144187.0,0.0036157455997473183

@@ -1,0 +1,3 @@
+﻿encuesta,periodo,year,observaciones,empresas,ids_no_disponibles,empresas_ventas_positivas,empresas_inversion_positiva,ventas_miles_pesos,inversion_miles_pesos,inversion_miles_pesos_muestra_intensidad,inversion_sobre_ventas_agregada,mediana_empresa_reportantes,mediana_empresa_inversoras,p90_empresa_reportantes
+Industria manufacturera,EDIT X 2019-2020,2019,6797,6797,0,6797,1307,270269013945.0,2200896387.0,2200896387.0,0.008143354485497491,0.002775248297605885,0.008771822971862764,0.034414578863723365
+Servicios y comercio,EDITS VIII 2020-2021,2021,8812,8811,0,8719,1865,684862146307.0,4396144187.0,4396144187.0,0.006419020544069259,0.0021214532512444824,0.00466423390437628,0.032582105590005815

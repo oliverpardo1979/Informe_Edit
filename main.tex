@@ -1,14 +1,106 @@
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\documentclass[12pt,a4paper]{article}
 
-\title{Informe_Edit}
-\author{oliverpardo }
-\date{July 2026}
+\usepackage[top=2.5cm,bottom=2.5cm,left=3cm,right=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage{mdframed}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{threeparttable}
+
+\setstretch{1.15}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+\setlength{\textfloatsep}{18pt plus 2pt minus 4pt}
+\setlength{\floatsep}{12pt plus 2pt minus 2pt}
+
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+  [\vspace{2pt}\hrule\vspace{4pt}]
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+\titlespacing{\section}{0pt}{18pt}{8pt}
+\titlespacing{\subsection}{0pt}{14pt}{6pt}
+
+\hypersetup{colorlinks=true,linkcolor=blue!60!black,urlcolor=blue!60!black}
+\graphicspath{{Paper/figures/}}
+\renewcommand{\contentsname}{Tabla de contenido}
+
+\newcommand{\reportseries}{Informes sobre la Productividad en Colombia}
+\newcommand{\reportseriesdesc}{Evidencia para entender y fomentar la productividad}
+\newcommand{\reportnumber}{Informe 0X}
+\newcommand{\reporttitle}{Fuentes y usos de la inversión empresarial en ciencia, tecnología e innovación}
+\newcommand{\reportsubtitle}{Una lectura de la EDIT de manufactura y la EDITS de servicios y comercio}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize Centro Javeriano de Competitividad}
+\fancyhead[R]{\footnotesize \reportnumber}
+\cfoot{\thepage}
+\setlength{\headheight}{14pt}
+\renewcommand{\headrulewidth}{0.4pt}
 
 \begin{document}
 
-\maketitle
+\begin{titlepage}
+\thispagestyle{empty}
+\vspace*{0.6cm}
+\begin{center}
+\includegraphics[width=0.58\textwidth]{logo_cjc_palatino_horizontal.png}
+\end{center}
 
-\section{Introduction}
+\vspace{1.5cm}
+\begin{center}
+{\Large\bfseries \reportseries\par}
+\vspace{0.15cm}
+{\large \reportseriesdesc\par}
+\vspace{1.4cm}
+{\large\bfseries \reportnumber\par}
+\vspace{0.45cm}
+{\Huge\bfseries \reporttitle\par}
+\vspace{0.45cm}
+{\Large \reportsubtitle\par}
+\end{center}
+
+\vfill
+\begin{center}
+{\large Julio de 2026\par}
+\end{center}
+\end{titlepage}
+
+\begin{mdframed}[
+  linewidth=1pt,
+  linecolor=gray!60,
+  backgroundcolor=gray!6,
+  innertopmargin=12pt,
+  innerbottommargin=12pt,
+  innerleftmargin=14pt,
+  innerrightmargin=14pt
+]
+\section*{Resumen ejecutivo}
+\addcontentsline{toc}{section}{Resumen ejecutivo}
+
+\textbf{Este informe caracteriza cuánto invierten las empresas en actividades científicas, tecnológicas y de innovación (ACTI), de dónde provienen esos recursos y en qué se utilizan.} El análisis usa 2019 para la industria manufacturera y 2021 para los sectores de servicios y comercio. Para manufactura se utiliza el año anterior a la pandemia; para servicios y comercio se mantiene el último año disponible. La comparación describe dos universos y dos años distintos; no mide una diferencia causal entre sectores.
+
+\textbf{La inversión en ACTI representó menos del 1\% de las ventas en ambos grupos.} El cociente entre la inversión total y las ventas de las empresas con ventas positivas fue 0,81\% en manufactura y 0,64\% en servicios y comercio. Entre las empresas que reportaron inversión positiva, la mediana de la inversión sobre ventas fue 0,88\% y 0,47\%, respectivamente.
+
+\textbf{Las empresas financiaron la inversión principalmente con recursos propios.} Esta fuente representó 80,1\% del valor financiado en manufactura y 76,8\% en servicios y comercio. Los recursos públicos tuvieron una participación de 0,4\% en manufactura y 12,3\% en servicios y comercio. La encuesta no permite concluir si esa diferencia responde a la oferta de instrumentos, a la demanda empresarial o a la composición de los sectores cubiertos.
+
+\textbf{La manufactura concentró la inversión en maquinaria y equipo; los servicios distribuyeron más recursos entre maquinaria, TIC e I+D interna.} La maquinaria y equipo representó 49,3\% de los usos en manufactura. En servicios y comercio, maquinaria y equipo representó 26,1\%, TIC, software y datos 25,4\%, e I+D interna 22,0\%.
+
+\textbf{La dependencia de recursos propios es el resultado transversal del informe.} Una pregunta para el análisis posterior es si esta estructura limita la inversión de empresas con proyectos viables pero menor liquidez, y si el mayor peso de los recursos públicos en servicios y comercio amplía la inversión total o reemplaza otras fuentes de financiación.
+\end{mdframed}
+
+\newpage
+\tableofcontents
+\newpage
+
+\input{Paper/sections/CuerpoInformeEdit}
 
 \end{document}
